@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.list-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid #b5b7c4;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .list-container {
+    margin-right: 20px;
+    width: 40%;
+  }
+}
+.title-style {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 700;
+  color: #171f46;
+}
+@media screen and (min-width: 768px) {
+  .title-style {
+    font-size: 28px;
+  }
+}
+.date-style {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #b5b7c4;
+}
+@media screen and (min-width: 768px) {
+  .date-style {
+    font-size: 23px;
+  }
+}
+.star-button-style {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-top: 25px;
+  background-color: transparent;
+}
+.star-image-style {
+  height: 30px;
+  width: 30px;
+}
+@media screen and (min-width: 768px) {
+  .star-image-style {
+    height: 40px;
+    width: 40px;
+  }
+}
